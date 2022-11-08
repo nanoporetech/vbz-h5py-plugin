@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vbz_h5py_plugin"
+version = "1.0.0"
+readme="README.md"
+requires-python=">=3.7"
+keywords=["nanopore", "h5py", "vbz", "pod5", "fast5"]
+dependencies = ["h5py"]
+description='Oxford Nanopore Technologies VBZ HDF plugin for h5py'
+classifiers=[
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)',
+    'Natural Language :: English',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX :: Linux',
+    'Operating System :: MacOS',
+    'Programming Language :: Python :: 3 :: Only',
+    'Topic :: Scientific/Engineering :: Bio-Informatics',
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["test"]
+
+[tool.setuptools.package-data]
+"vbz_h5py_plugin.lib" = ["*.so", "*.dylib", "*.dll"]
+
+[project.optional-dependencies]
+dev = [
+    "black == 22.10.0",
+    "pre-commit",
+    "pytest",
+]

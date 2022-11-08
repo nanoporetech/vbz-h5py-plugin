@@ -1,0 +1,6 @@
+h5py
+
+[dev]
+black==22.10.0
+pre-commit
+pytest

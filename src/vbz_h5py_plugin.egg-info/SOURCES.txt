@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+src/test/test_plugin.py
+src/vbz_h5py_plugin/__init__.py
+src/vbz_h5py_plugin.egg-info/PKG-INFO
+src/vbz_h5py_plugin.egg-info/SOURCES.txt
+src/vbz_h5py_plugin.egg-info/dependency_links.txt
+src/vbz_h5py_plugin.egg-info/requires.txt
+src/vbz_h5py_plugin.egg-info/top_level.txt
+src/vbz_h5py_plugin/lib/libvbz_hdf_plugin.dylib
+src/vbz_h5py_plugin/lib/libvbz_hdf_plugin_aarch64.so
+src/vbz_h5py_plugin/lib/libvbz_hdf_plugin_m1.dylib
+src/vbz_h5py_plugin/lib/libvbz_hdf_plugin_x86_64.so
+src/vbz_h5py_plugin/lib/vbz_hdf_plugin.dll
