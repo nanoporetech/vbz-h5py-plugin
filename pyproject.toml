@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vbz_h5py_plugin"
-version = "1.0.0"
+version = "1.0.1"
 readme="README.md"
 requires-python=">=3.7"
 keywords=["nanopore", "h5py", "vbz", "pod5", "fast5"]
